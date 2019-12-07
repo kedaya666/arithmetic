@@ -4,8 +4,8 @@
  输出：1->1->2->3->4->4
 * */
 let mergeTwoLists = function(l1, l2) {
-    /!*let arr1 = l1.split('->');
-    let arr2 = l2.split('->');*!/
+    // let arr1 = l1.split('->');
+    // let arr2 = l2.split('->');
     if(l1===null || l2===null)return null;
     console.log(l1,l2);
     let newArr = l1.concat(l2);
